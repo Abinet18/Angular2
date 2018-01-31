@@ -11,7 +11,7 @@ export class MyvisibilityDirective {
     
    console.log(this.visible);
    }
-   ngAfterContentInit()
+   ngOnInit()
    {
     console.log(this.visible);
     let display=this.visible?'block':'none';

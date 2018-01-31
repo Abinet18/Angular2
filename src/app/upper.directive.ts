@@ -10,7 +10,7 @@ export class UpperDirective {
               ) {
              console.log(element.nativeElement.innerHTML);
              }
-  ngAfterContentInit()
+  ngOnInit()
   {
     console.log();
     let text=this.element.nativeElement.innerHTML;
